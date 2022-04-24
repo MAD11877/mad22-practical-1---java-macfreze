@@ -27,13 +27,13 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Input a number: ");
+    
     int num = in.nextInt();
 
     ArrayList<Integer> numbers = new ArrayList();
 
     for(int i = 0; i < num ; i++){
-      System.out.print("Input another number: ");
+      
       int newNum = in.nextInt();
 
       numbers.add(newNum);
@@ -55,7 +55,7 @@ public class Question5
         }
     }
 
-    System.out.print("Mode of your numbers is: " + mode);
+    System.out.print(mode);
     
   }
 }
